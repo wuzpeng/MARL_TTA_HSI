@@ -8,12 +8,12 @@ A human-on-the-loop, threat-aware MARL framework with TTA and HSI module for eff
 
 ### Framework
 We develop the human-on-the-loop threat-aware MARL framework that comprises three core modules: (1) the Multi-Agent Reinforcement Learning (MARL) module, (2) the Target Threat Assessment (TTA) module, and (3) the Human-Swarm Interaction (HSI) module. These modules operate synergistically to achieve improved decision-making in MACS.
-<img width="1671" height="953" alt="image" src="https://github.com/user-attachments/assets/1e57a014-dd0a-4aef-9f68-24ba15cc237e" />
+<img width="1671" height="953" alt="image" src="figures/pipline_v2.png" />
 
 
 ### Human-Swarm Interaction Interface
 The human-swarm interaction interface establishes a bidirectional TCP/IP communication channel with both the MARL algorithm and the MACS, enabling real-time data exchange. This interface comprises two primary components: (1) an interactive control panel and (2) a 3D situational display. The 3D visualization module provides an intuitive representation of the confrontation scenario.
-<img width="1754" height="993" alt="image" src="https://github.com/user-attachments/assets/2a006f7b-7ada-443b-8223-9d3485ffd711" />
+<img width="1754" height="993" alt="image" src="figures/human_interface.png" />
 
 ### Repository Structure
 
