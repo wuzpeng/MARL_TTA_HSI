@@ -13,7 +13,7 @@ We develop the human-on-the-loop threat-aware MARL framework that comprises thre
 
 ### Human-Swarm Interaction Interface
 The human-swarm interaction interface establishes a bidirectional TCP/IP communication channel with both the MARL algorithm and the MACS, enabling real-time data exchange. This interface comprises two primary components: (1) an interactive control panel and (2) a 3D situational display. The 3D visualization module provides an intuitive representation of the confrontation scenario.
-<img width="1754" height="993" alt="image" src="figures/human_interface.png" />
+<img width="1754" height="993" alt="image" src="figures/HSI_interface.gif" />
 
 ### Repository Structure
 - `HSI_UI/`: Human-swarm interaction GUI design (PyQt6/OpenGL).
