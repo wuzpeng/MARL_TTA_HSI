@@ -18,6 +18,7 @@ The human-swarm interaction interface establishes a bidirectional TCP/IP communi
 ### Repository Structure
 - `HSI_UI/`: Human-swarm interaction GUI design (PyQt6/OpenGL).
 - `algorithms/`: Mappo with TTA module.
+- `envs/`: Environment design/setting for reinforcement learning.
 - `runner/`: Training framework.
 - `scripts/`: Train/render start.
 - `weights/`: Pretrained weights.
