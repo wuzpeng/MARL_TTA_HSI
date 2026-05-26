@@ -16,15 +16,24 @@ The human-swarm interaction interface establishes a bidirectional TCP/IP communi
 <img width="1754" height="993" alt="image" src="figures/human_interface.png" />
 
 ### Repository Structure
-
-
-### Modules
-
+- `HSI_UI/`: Human-swarm interaction GUI design (PyQt6/OpenGL).
+- `algorithms/`: Mappo with TTA module.
+- `runner/`: Training framework.
+- `scripts/`: Train/render start.
+- `weights/`: Pretrained weights.
+- `config.py/`: Parameter settings.
 
 ### Quick Start
-
+```python
+python scripts/train/train_hafang_weight.py
+--env-name MultipleCombat --algorithm-name mappo --seed 0 --n-training-threads 1 --n-rollout-threads 1 --log-interval 1 --save-interval 1
+--num-mini-batch 2 --buffer-size 6000 --num-env-steps 1e8 --lr 1e-4 --gamma 0.99 --ppo-epoch 8 --clip-params 0.2 --max-grad-norm 2
+--entropy-coef 1e-3 --hidden-size "256 128" --act-hidden-size "256 128" --recurrent-hidden-size 128 --recurrent-hidden-layers 1 --data-chunk-length 8
+```
 
 ### Results
+<img width="4706" height="1199" alt="tta" src="https://github.com/user-attachments/assets/c839b86e-167a-450e-af61-33d2ef339d9d" />
+<img width="4683" height="1048" alt="human" src="https://github.com/user-attachments/assets/d868c4b7-27f0-4b4d-9ccf-318b4455c15b" />
 
 
 ### Acknowledgements / References
