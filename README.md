@@ -32,8 +32,8 @@ python scripts/train/train_hafang_weight.py
 ```
 
 ### Results
-<img width="4706" height="1199" alt="tta" src="https://github.com/user-attachments/assets/c839b86e-167a-450e-af61-33d2ef339d9d" />
-<img width="4683" height="1048" alt="human" src="https://github.com/user-attachments/assets/d868c4b7-27f0-4b4d-9ccf-318b4455c15b" />
+<img width="4706" height="1199" alt="tta" src="figures/tta.png" />
+<img width="4683" height="1048" alt="human" src="figures/human.png" />
 
 
 ### Acknowledgements / References
