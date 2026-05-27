@@ -4,6 +4,11 @@ A Generalizable Human-on-the-Loop Threat-Aware MARL Framework for Multi-agent Co
 ## Project Overview
 A human-on-the-loop, threat-aware MARL framework with TTA and HSI module for efficient and generalizable multi-UAV confrontation in high-fidelity Harfang3D simulations.
 
+<p align="center">
+  <img width="707" height="398" alt="harfang" src="figures/harfang.png" />
+</p>
+
+
 ## Architecture
 
 ### Framework
